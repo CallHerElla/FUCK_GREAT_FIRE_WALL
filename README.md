@@ -20,3 +20,13 @@ Credit goes to:
 [NextDns](https://nextdns.io/)
 
 [https://ghproxy.com/](https://ghproxy.com/)
+
+
+Current DNS rewrite:
+
+```
+ipv4.dns2.nextdns.io → ipv4-serverfield-tpe-1.edge.nextdns.io
+ipv4-anycast.dns2.nextdns.io → ipv4-serverfield-tpe-1.edge.nextdns.io
+ipv4.dns1.nextdns.io → ipv4-zepto-tyo-1.edge.nextdns.io
+ipv4-anycast.dns1.nextdns.io → ipv4-zepto-tyo-1.edge.nextdns.io
+```
