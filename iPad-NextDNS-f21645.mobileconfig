@@ -1,42 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
+0�#-	*�H��
+��#0�#10+0	`�He0��	*�H��
+�����<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>PayloadDisplayName</key>
-    <string>NextDNS</string>
-    <key>PayloadDescription</key>
-    <string>This profile enables NextDNS on all networks using the new native Encrypted DNS feature.</string>
-    <key>PayloadIdentifier</key>
-    <string>io.nextdns.profile</string>
-    <key>PayloadScope</key>
-    <string>User</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-    <key>PayloadContent</key>
-    <array>
-      <dict>
-        <key>DNSSettings</key>
-        <dict>
-          <key>DNSProtocol</key>
-          <string>HTTPS</string>
-          <key>ServerURL</key>
-          <string>https://nmsl.dns.nextdns.io/f21645/Zhihao%E2%80%99s%20iPad</string>
-        </dict>
-        <key>PayloadType</key>
-        <string>com.apple.dnsSettings.managed</string>
-        <key>PayloadIdentifier</key>
-        <string>io.nextdns.profile.dnsSettings.managed</string>
-        <key>PayloadUUID</key>
-        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.3C8F875F-45B8-4ACF-9F84-244D3D6DF258.d84df4</string>
-        <key>PayloadDisplayName</key>
-        <string>NextDNS (f21645)</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-      </dict>
-    </array>
-  </dict>
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.applebetasoftware</string>
+				<key>PayloadType</key>
+				<string>com.apple.defaults.managed</string>
+				<key>PayloadUUID</key>
+				<string>C9F7A577-233F-4E28-B717-EE485930E21D</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadContent</key>
+				<array>
+					<dict>
+						<key>DefaultsDomainName</key>
+						<string>.GlobalPreferences</string>
+						<key>DefaultsData</key>
+						<dict>
+							<key>SeedGroup</key>
+							<string>PublicBeta</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>DefaultsDomainName</key>
+						<string>com.apple.seeding</string>
+						<key>DefaultsData</key>
+						<dict>
+							<key>SeedProgram</key>
+							<string>DeveloperSeed</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>DefaultsDomainName</key>
+						<string>com.apple.MobileAsset</string>
+						<key>DefaultsData</key>
+						<dict>
+							<key>MobileAssetSUAllowOSVersionChange</key>
+							<false/>
+							<key>MobileAssetSUAllowSameVersionFullReplacement</key>
+							<false/>
+							<key>MobileAssetServerURL-com.apple.MobileAsset.SoftwareUpdateDocumentation</key>
+							<string>https://mesu.apple.com/assets/iOS11DeveloperSeed</string>
+							<key>MobileAssetServerURL-com.apple.MobileAsset.SoftwareUpdate</key>
+							<string>https://mesu.apple.com/assets/iOS11DeveloperSeed</string>
+							<key>MobileAssetServerURL-com.apple.MobileAsset.MobileSoftwareUpdate.UpdateBrain</key>
+							<string>https://mesu.apple.com/assets/iOS11DeveloperSeed</string>
+							<key>MobileAssetAssetAudience</key>
+							<string>b7580fda-59d3-43ae-9488-a81b825e3c73</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Configures your iOS device for use with the Apple Beta Software Program.</string>
+		<key>PayloadDisplayName</key>
+		<string>iOS Beta Software Profile</string>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.applebetasoftware</string>
+		<key>PayloadOrganization</key>
+		<string>Apple Inc.</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>C9F7A577-233F-4E28-B717-EE485930E21D</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>iOS Beta is pre-release software.  Your use is subject to and licensed only under the terms and conditions of the iOS Beta Software License Agreement ("iOS BSLA"), including any applicable consent to collect diagnostic data set forth therein.  If you have not agreed to the iOS BSLA, you are not permitted to use this software.  By installing iOS Beta and submitting feedback through Feedback Assistant, you consent to Apple's use of your information in accordance with its privacy policy (http://www.apple.com/legal/privacy).Installing this iOS Beta Software Profile will allow you to install the iOS Beta on your device and may provide you with access to Apple tools so that you may help Apple troubleshoot issues with your device and help Apple to improve iOS and related products and services.This version of iOS is only for use by members of the Apple Developer Program or Apple Beta Software Program.  Attempting to install this version of iOS in an unauthorized manner could put your device in an unusable state, which could necessitate an out of warranty repair. Please be sure to backup your devices using the latest version of iTunes and archive that backup prior to installing the iOS Beta release.  Devices updated to iOS Beta cannot be restored to the current publicly available version of iOS without restoring the device to its factory settings and data created after the installation of the Beta software may be lost or unrecoverable on an earlier version of iOS.  Please refer to the Apple Developer Program or Apple Beta Software Program websites for more information about restoring your device, or visit: httpss://support.apple.com/en-us/HT203282
+			</string>
+			<key>en</key>
+			<string>iOS Beta is pre-release software.  Your use is subject to and licensed only under the terms and conditions of the iOS Beta Software License Agreement ("iOS BSLA"), including any applicable consent to collect diagnostic data set forth therein.  If you have not agreed to the iOS BSLA, you are not permitted to use this software.  By installing iOS Beta and submitting feedback through Feedback Assistant, you consent to Apple's use of your information in accordance with its privacy policy (http://www.apple.com/legal/privacy).Installing this iOS Beta Software Profile will allow you to install the iOS Beta on your device and may provide you with access to Apple tools so that you may help Apple troubleshoot issues with your device and help Apple to improve iOS and related products and services.This version of iOS is only for use by members of the Apple Developer Program or Apple Beta Software Program.  Attempting to install this version of iOS in an unauthorized manner could put your device in an unusable state, which could necessitate an out of warranty repair. Please be sure to backup your devices using the latest version of iTunes and archive that backup prior to installing the iOS Beta release.  Devices updated to iOS Beta cannot be restored to the current publicly available version of iOS without restoring the device to its factory settings and data created after the installation of the Beta software may be lost or unrecoverable on an earlier version of iOS.  Please refer to the Apple Developer Program or Apple Beta Software Program websites for more information about restoring your device, or visit: httpss://support.apple.com/en-us/HT203282
+			</string>
+		</dict>
+		<key>RemovalDate</key>
+		<date>2019-03-07T00:00:00Z</date>
+		<key>PayloadRebootSuggested</key>
+		<true/>
+	</dict>
 </plist>
+��	s0�0� 
